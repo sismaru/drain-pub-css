@@ -23,3 +23,41 @@ span.arrow{display:inline-block; width:7px; height:12px; margin-left:8px; backgr
 
 .btn-wrap{display:flex;justify-content:center;width:100%;}
 .btn-wrap a{display:flex;justify-content:center;align-items:center;width:300px;height:60px;color:#fff;border:1px solid #fff;font-size:18px;line-height:1.33;}
+
+/* 텝, 스와이퍼 */
+.pmo-cont .ui-tab-cotn .tab-cotn {display:none; margin:75px auto 0; padding:0 30px; }
+
+.pmo-cont .tab-menu-type01 {margin-top:40px; }
+.pmo-cont .tab-menu-type01 ul {display:flex; justify-content:center; gap:5px; margin-bottom:40px; }
+.pmo-cont .tab-menu-type01 ul li {display:flex; align-items:center; height:40px; border:1px solid #ccc; padding:0 15px; font-size:18px;font-weight:500; border-radius:4px; background-color:#fff; text-align:center; letter-spacing:-.45px; cursor:pointer; }
+.pmo-cont .tab-menu-type01 ul li.active {border-color:#000; background-color:#000; color:#fff; }
+
+.catry-sw-box{margin-top:60px;}
+.brand_sl { /*margin-top:100px;*/text-align:center;}
+
+.thumb-sw{overflow:visible; margin:0 auto;/*max-width:870px;*/}
+.thumb-sw.swiper-container-horizontal{overflow:visible;}
+.thumb-sw .swiper-wrapper { flex-wrap:wrap; justify-content: center;gap:25px 5px;}
+.thumb-sw .swiper-slide{position:relative;display:flex;cursor:pointer;justify-content: center;align-items: center;flex-direction: row;width:auto !important;height:40px;padding:0 15px 0 5px;background-color:#fff;border:1px solid #ccc;border-radius:20px;gap:0 5px;}
+.thumb-sw .swiper-slide img{width:30px;height:30px;border-radius:50%;}
+.thumb-sw .swiper-slide h2{font-size:18px;font-weight:500;}
+.thumb-sw .swiper-slide span{position:absolute;top:-10px;right:-5px;display:flex;align-items:center;justify-content: center;height:20px;border-radius:10px;padding: 0 5px;font-size:11px;color:#fff;background:#000;}
+.thumb-sw .swiper-slide.swiper-slide-thumb-active {background:#000;border-color:#000;}
+.thumb-sw .swiper-slide.swiper-slide-thumb-active h2 {color:#fff;}
+.thumb-sw .swiper-slide.swiper-slide-thumb-active span {background:#f61818;}
+
+.brand-sw {margin-top:50px;font-size:0}
+.brand-sw .swiper-slide{position:relative;display:flex;flex-wrap:wrap;width:100%;gap:0 20px;}
+.brand-sw .swiper-slide a{width:622px;}
+.brand-sw .swiper-slide img{width:100%;}
+.brand-sw .swiper-slide .txt-area {display:none;}
+.brand-sw .swiper-slide .link-area {flex:1;position:relative;display:flex; flex-wrap:wrap;gap:0 10px; background:papayawhip; }
+.brand-sw .swiper-slide .link-area li{flex:1;background:peachpuff; }
+
+.brand-sw .swiper-button-next,
+.brand-sw .swiper-button-prev{background:url(https://cdn.eqlstore.com/display/html/DSP_CTGRY/20240416/pc3171_slide_arrow.png);background-size:100%;width:48px;height:48px;left:50%;margin-left:177px;top:286px;z-index:3;}
+.brand-sw .swiper-button-prev{transform:rotate(180deg);margin-left:-225px;}
+.brand-sw .swiper-button-prev:after, .brand-sw .swiper-button-next:after {content:none;}
+.brand-shop{position:absolute;right:20px;top:20px;font-size:10px;color:#000;font-weight:500;width:86px;height:28px;background-color:#fff;text-align:center;line-height:28px;border:1px solid #a6a6a6;box-sizing:border-box}
+
+.pmo-cont [class*=timeView_] {display:none; }
