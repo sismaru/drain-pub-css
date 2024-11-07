@@ -1,0 +1,25 @@
+/* 공통 */
+.hidden {overflow:hidden; position:absolute; z-index:-1; border:0; width:1px; height:1px; clip:rect(1px,1px,1px,1px); clip-path:inset(50%); }
+
+.pmo-cont {width:100%;min-width:1200px; margin:0 auto 70px auto;overflow:hidden;--key-color:#ff444e;}
+.pmo-cont .inner {padding-block:100px;text-align:center;}
+.pmo-cont img { width: 100%;}
+.font-gt  {font-family:"GT-America", sans-serif !important;}
+.font-pre {font-family:"Pretendard", sans-serif !important;}
+
+.tit-box {text-align:center; }
+.tit-box h2 {font-weight:900; font-size:40px; line-height:1.2; }
+.tit-box h3 { font-size:40px;font-weight:500;line-height:1.88;letter-spacing: -1.8px;}
+.tit-box .tit-desc {margin-top:20px; font-size:18px; line-height:1.6; letter-spacing: -0.5px; }
+.tit-box .tit-desc em {display:block; margin-top:30px;font-size:20px;line-height:1.4;letter-spacing: -0.5px;}
+
+.motion {transition: transform 0.0s ease, opacity 0.0s ease;opacity: 0.0;}
+.motion.bottom {transform: translate(0,100px);}
+.motion.in {transition: 1s ease, opacity .8s ease;transform: translate(0,0);opacity: 1;}
+
+span.arrow{display:inline-block; width:7px; height:12px; margin-left:8px; background:url(https://cdn.eqlstore.com/display/html/DSP_CTGRY/20241104/icon_arrow_01.png) no-repeat; background-position:right; background-size:auto 100%; vertical-align:middle; }
+.bl span.arrow{background-image: url(https://cdn.eqlstore.com/display/html/DSP_CTGRY/20231102/icon_arrow_02.png);}
+.bl span.arrow.sm{width:20px;height:20px;background-image: url(https://cdn.eqlstore.com/display/html/DSP_CTGRY/20231103/icon_arrow_03.png);}
+
+.btn-wrap{display:flex;justify-content:center;width:100%;}
+.btn-wrap a{display:flex;justify-content:center;align-items:center;width:300px;height:60px;color:#fff;border:1px solid #fff;font-size:18px;line-height:1.33;}
